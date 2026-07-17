@@ -1,0 +1,14 @@
+--- a/environment/docker/container.go
++++ b/environment/docker/container.go
+@@ -249,7 +249,13 @@ func (e *Environment) Create() error {
+ 		SecurityOpt:    []string{"no-new-privileges"},
++		// DiskGuard: add seccomp profile to block disk-filling syscalls (fallocate etc.)
++		// Profile is deployed by the DiskGuard Blueprint plugin at /etc/docker/seccomp-diskguard.json
++		SecurityOpt: func() []string {
++			opts := []string{"no-new-privileges"}
++			if profile := config.Get().Docker.SeccompProfile; profile != "" {
++				opts = append(opts, "seccomp="+profile)
++			}
++			return opts
++		}(),
+ 		ReadonlyRootfs: true,
