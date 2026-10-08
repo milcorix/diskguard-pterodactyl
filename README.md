@@ -157,7 +157,7 @@ MIT License — свободное использование, распрост�
 
 <div align="center">
   <br>
-  <a href="https://cloud.xipher.pro">
+  <a href="https://xipher.ru">
     <img src="https://img.shields.io/badge/Xipher%20Cloud-cloud.xipher.pro-6c63ff?style=for-the-badge&logo=cloud&logoColor=white"/>
   </a>
   <br><br>
