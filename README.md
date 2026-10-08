@@ -3,7 +3,7 @@
   <h1>DiskGuard</h1>
   <p><b>Pterodactyl Disk Protection Plugin</b></p>
   <p>
-    <a href="https://cloud.xipher.pro"><img src="https://img.shields.io/badge/by-Xipher%20Cloud-6c63ff?style=flat-square&logo=cloud&logoColor=white"/></a>
+    <a href="https://xipher.ru"><img src="https://img.shields.io/badge/by-Xipher%20Cloud-6c63ff?style=flat-square&logo=cloud&logoColor=white"/></a>
     <img src="https://img.shields.io/badge/version-1.0.0-3ecfcf?style=flat-square"/>
     <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/Panel-1.6–1.14-blue?style=flat-square"/>
@@ -158,7 +158,7 @@ MIT License — свободное использование, распрост�
 <div align="center">
   <br>
   <a href="https://xipher.ru">
-    <img src="https://img.shields.io/badge/Xipher%20Cloud-cloud.xipher.pro-6c63ff?style=for-the-badge&logo=cloud&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Xipher%20Cloud-xipher.ru-6c63ff?style=for-the-badge&logo=cloud&logoColor=white"/>
   </a>
   <br><br>
   Разработано с ❤️ командой <a href="https://xipher.ru"><b>Xipher Cloud</b></a>
