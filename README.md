@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square"/>
     <img src="https://img.shields.io/badge/Panel-1.6–1.14-blue?style=flat-square"/>
   </p>
-  <p>Разработано с любовью — <a href="https://cloud.xipher.pro">Xipher Cloud</a></p>
+  <p>Разработано с любовью — <a href="https://xipher.ru">Xipher Cloud</a></p>
 </div>
 
 ---
@@ -161,5 +161,5 @@ MIT License — свободное использование, распрост�
     <img src="https://img.shields.io/badge/Xipher%20Cloud-cloud.xipher.pro-6c63ff?style=for-the-badge&logo=cloud&logoColor=white"/>
   </a>
   <br><br>
-  Разработано с ❤️ командой <a href="https://cloud.xipher.pro"><b>Xipher Cloud</b></a>
+  Разработано с ❤️ командой <a href="https://xipher.ru"><b>Xipher Cloud</b></a>
 </div>
