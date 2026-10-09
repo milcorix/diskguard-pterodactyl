@@ -35,7 +35,7 @@ subprocess.run(["fallocate", "-l", "1G", f".tmp_{uuid4()}"])
 | **Seccomp** | Блокирует syscall `fallocate` на уровне ядра | Скрипт падает мгновенно, 0 байт записано |
 | **Wings config** | `disk_check_interval: 5` (было 150 сек) | Wings реагирует за 5 сек вместо 2.5 мин |
 | **PID limit** | `container_pid_limit: 512` | Ограничивает параллельность атаки |
-| **Monitor daemon** | Проверка диска каждые 3 сек | Ловит альтернативные методы (dd и др.) |
+| **Monitor daemon** | Хост — каждые 3 сек, контейнеры — каждые 45 сек | Ловит альтернативные методы (dd и др.) |
 
 ### Результат тестирования
 
@@ -142,7 +142,7 @@ diskguard/
 ├── conf.yml                  — Blueprint конфиг
 ├── icon.png                  — Иконка плагина
 ├── install.sh                — Установщик (запускается автоматически)
-├── diskguard-monitor.sh      — Демон мониторинга (каждые 3 сек)
+├── diskguard-monitor.sh      — Демон мониторинга (хост 3 с, du контейнеров 45 с)
 ├── diskguard.service         — Systemd unit
 └── wings-seccomp.patch       — Патч Wings для компиляции из исходников
 ```
